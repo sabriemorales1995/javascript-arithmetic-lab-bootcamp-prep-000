@@ -27,11 +27,12 @@ function makeInt(n){
   //assumes base 10
   //returns Nan as appropriate
   
-  return parseInt(n)
+  return parseInt(n,10)
 }
 
 function preserveDecimal(n){
   //preserves n's decimals (it parses n as a floating point num)
   //returns the parsed number 
   //returns NaN as appropriate
+  return parseFloat(n)
 }
